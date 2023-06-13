@@ -1,5 +1,3 @@
-import java.util.Objects;
-
 public class CricketerInfo {
 
     private final String name;
@@ -15,10 +13,6 @@ public class CricketerInfo {
         this.noOfRuns=noOfRuns;
         this.noOfWickets=noOfWickets;
 
-    }
-
-    public void CricketerInfo() {
-        System.out.println(buildBio());
     }
 
     public String buildBio() {
