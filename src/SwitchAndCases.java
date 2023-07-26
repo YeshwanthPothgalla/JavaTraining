@@ -1,19 +1,19 @@
 import java.util.Scanner;
 
 public class SwitchAndCases {
-//        public static void main(String[] args) {
+    //        public static void main(String[] args) {
 
-            public void numberOptions(){
+            public void numberOptions() {
 
                 Scanner sc = new Scanner(System.in);
 
                 System.out.print("Enter the Option: ");
                 int option = sc.nextInt();
                 sc.close();
-                if (option>50){
+                if (option > 50) {
                     System.out.println("Bhosidike Number jo options hai usme de");
-                }else {
-                    switch(option){
+                } else {
+                    switch (option) {
                         case 1:
                             System.out.println("Paise nai hai jaana");
                             break;
@@ -36,22 +36,22 @@ public class SwitchAndCases {
                 }
             }
 
-            public void hoeConvo(){
+            public void hoeConvo () {
                 Scanner sc = new Scanner(System.in);
                 System.out.print("Do you wanna have a good time honey: Say 'Y'/'N': ");
                 String response = sc.next();
-                    switch(response){
+                switch (response) {
                     case "Y":
-                    System.out.println("Allright Honey");
-                    break;
+                        System.out.println("Allright Honey");
+                        break;
                     case "N":
-                    System.out.println("You better be Gay");
-                    break;
+                        System.out.println("You better be Gay");
+                        break;
                     default:
-                    System.out.println("Nigga watch out");
-                    break;
-            }
+                        System.out.println("Nigga watch out");
+                        break;
+                }
             }
 
-
-}
+        }
+//}
