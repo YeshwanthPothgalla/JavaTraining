@@ -1,3 +1,5 @@
+package jobTraining;
+
 import java.util.Scanner;
 import java.util.Objects;
 

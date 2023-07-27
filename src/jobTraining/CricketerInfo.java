@@ -1,3 +1,5 @@
+package jobTraining;
+
 public class CricketerInfo {
 
     private final String name;
